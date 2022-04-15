@@ -1,5 +1,5 @@
 # language-test-pl
-  [DEMO](https://danylolipar.github.io/todos-photos-demo/)
+  [DEMO](https://danylolipar.github.io/test-language-pl/)
 # Used stack
   React/React Hooks/TS/SCSS/BEM
 # Description

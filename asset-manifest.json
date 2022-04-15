@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/test-language-pl/static/css/main.55ff6a34.css",
+    "main.js": "/test-language-pl/static/js/main.a13e764a.js",
+    "index.html": "/test-language-pl/index.html",
+    "main.55ff6a34.css.map": "/test-language-pl/static/css/main.55ff6a34.css.map",
+    "main.a13e764a.js.map": "/test-language-pl/static/js/main.a13e764a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.55ff6a34.css",
+    "static/js/main.a13e764a.js"
+  ]
+}

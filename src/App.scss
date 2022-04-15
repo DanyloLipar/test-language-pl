@@ -1,0 +1,126 @@
+@import './blocks/normalize.scss';
+@import './blocks/vars.scss';
+
+
+.test {
+    background: $white-color;
+    margin-top: 50px;
+    margin-left: 30px;
+    border-radius: 15px;
+    width: 700px;
+}
+
+.description {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 7px;
+
+    &__number {
+        display: flex;
+        align-items: center;
+        background: $desc-number;
+        border-radius: 50px;
+
+        &-txt {
+            padding: 8px;
+            font-weight: bold;
+            color: $desc-number-txt;
+        }
+    }
+}
+
+.content {
+    margin-left: 15px;
+    margin-top: 30px;
+
+    &__note {
+        display: flex;
+        color: $text-selected;
+    }
+
+    &__list {
+        list-style-type: none;
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+        margin-top: 3px;
+    }
+}
+
+.two {
+    margin-left: 3px;
+    color: $black-color;
+    font-weight: bold;
+
+    &__span {
+        color: $text-selected;
+    }
+}
+
+.list {
+    margin-top: 3px;
+
+    &__box {
+        display: flex;
+        align-items: center;
+        margin-top: 2px;
+
+        &-txt {
+            &>span {
+                color: $text-selected;
+                font-style: italic;
+            }
+        }
+    }
+}
+
+.select {
+    display: flex;
+    align-items: center;
+    margin: 0 7px 0;
+
+    &__own {
+        width: 50px;
+        border-radius: 10px;
+        border: 1px solid $checker-color;
+    }
+}
+
+.check {
+    margin-left: 1px;
+
+    &>div {
+        width: 5px;
+        height: 5px;
+        background: $checker-color;
+        margin: 1.5px;
+        border-radius: 50px;
+    }
+
+    &__one,
+    &__two,
+    &__three,
+    &__four,
+    &__five,
+    &__six,
+    &__seven {
+
+        &:first-child,
+        &:nth-child(2),
+        &:nth-child(3) {
+            background: $mistake;
+        }
+    }
+}
+
+.incorrectly {
+    border: 2px solid $mistake;
+}
+
+.done {
+    border: 2px solid $correct;
+}
+
+input {
+    outline: none;
+}
